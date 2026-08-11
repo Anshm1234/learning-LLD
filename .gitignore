@@ -1,0 +1,15 @@
+# Compiled C++ programs
+*.exe
+*.out
+*.o
+*.obj
+
+# Build folders
+build/
+bin/
+Debug/
+Release/
+
+# Editor settings
+.vscode/*.browse.VC.db
+.vscode/ipch/
