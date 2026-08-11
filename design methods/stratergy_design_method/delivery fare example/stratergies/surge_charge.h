@@ -11,11 +11,15 @@ class surge_charge : public strat_manager
         {
             this->multiplier=multiplier;
         }
+        void set_multiplier(int multiplier)
+        {
+            this->multiplier=multiplier;
+        }
 
         int charge(double distance,double duration) override
         {
             double base = distance*15+duration*10;
             return base * multiplier;
         }
-        
+
 };

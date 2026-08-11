@@ -7,6 +7,6 @@ class premiumcharge : public strat_manager
     public:
         int charge(double distance,double duration) override
         {
-            return distance*15+duration*10;
+            return distance*10+duration*10;
         }
 };

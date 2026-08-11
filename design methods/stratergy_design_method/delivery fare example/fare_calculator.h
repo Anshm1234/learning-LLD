@@ -16,11 +16,15 @@ class fare_calculator{
         {
             n=new normal_charge();
             p=new premiumcharge();
-            s=new surge_charge(2);
+            s=new surge_charge(1);
         }
         void set_type(string type)
         {
             this->type=type;
+        }
+        void set_multiplier(int multiplier)
+        {
+            s->set_multiplier(multiplier);
         }
 
         string get_type()

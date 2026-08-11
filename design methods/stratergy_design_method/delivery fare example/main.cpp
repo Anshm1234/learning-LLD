@@ -5,7 +5,8 @@ using namespace std;
 int main()
 {
     fare_calculator* f=new fare_calculator();
-    f->set_type("surge");
+    f->set_type("premium");
+    f->set_multiplier(1.5);
     cout<<f->calculator(12,5)<<endl;
     return 0;
 }
