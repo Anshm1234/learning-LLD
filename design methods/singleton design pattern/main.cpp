@@ -7,8 +7,6 @@ int main()
     manager *m1 = manager::getinstance();
     manager *m2 = manager::getinstance();
 
-    
-
     if(m1==m2)
     {
         cout<<"Both are same"<<endl;
